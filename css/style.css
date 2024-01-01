@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Gabarito);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gabarito', 'Montserrat', monospace;
+    font-weight: 500;
+    color: #121212;
+    background-color: #FAFAFA;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Navigation styling */
+.overall_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    border-bottom: .5px solid #f1f1f1;
+}
