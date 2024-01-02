@@ -54,7 +54,7 @@ a, li{
 
 .nav_but:hover{
     animation-name: button_hover;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 }
