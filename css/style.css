@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Gabarito);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
@@ -8,15 +9,16 @@
 }
 
 body{
-    font-family: 'Gabarito', 'Montserrat', monospace;
-    font-weight: 500;
+    font-family: 'Roboto', 'Gabarito', monospace;
+    font-weight: lighter;
     color: #121212;
     background-color: #FAFAFA;
 }
 
 a, li{
     text-decoration: none;
-    list-style-type: none;
+    list-style: none;
+    color: #121212;
 }
 
 /* Navigation styling */
@@ -25,5 +27,35 @@ a, li{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
-    border-bottom: .5px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
 }
+
+.link_nav li{
+    display: inline-block;
+}
+
+.link_nav a{
+    border-radius: 7px;
+    padding: 10px 15px;
+    transition-duration: .5s;
+}
+
+.link_nav a:hover{
+    background-color: beige;   
+}
+
+.nav_but{
+    background-color: #FF7262;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    animation-name: nav_button
+    transition-duration: .5s;
+}
+
+.nav_but:hover{
+    background-color: #f1f1f1;
+}
+
+
+
